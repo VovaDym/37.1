@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>661</width>
-    <height>602</height>
+    <width>639</width>
+    <height>818</height>
    </rect>
   </property>
   <property name="font">
@@ -21,508 +21,480 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_3">
     <item row="0" column="0">
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <widget class="QLineEdit" name="enterShow">
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>40</height>
-         </size>
+     <widget class="QLineEdit" name="resultShow">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <layout class="QGridLayout" name="gridLayout_2"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
         <property name="font">
          <font>
-          <pointsize>10</pointsize>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
          </font>
         </property>
-        <property name="layoutDirection">
-         <enum>Qt::LeftToRight</enum>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
         </property>
         <property name="text">
-         <string/>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         <string>7</string>
         </property>
        </widget>
       </item>
-      <item>
-       <widget class="QLineEdit" name="resultShow">
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>80</height>
-         </size>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
         <property name="font">
          <font>
+          <family>Palatino Linotype</family>
           <pointsize>16</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
          </font>
         </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
         </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        <property name="text">
+         <string>9</string>
         </property>
        </widget>
       </item>
-      <item>
-       <layout class="QGridLayout" name="gridLayout">
-        <item row="1" column="0">
-         <layout class="QGridLayout" name="gridLayout_2"/>
-        </item>
-        <item row="2" column="0">
-         <widget class="QPushButton" name="pushButton_7">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>7</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="2">
-         <widget class="QPushButton" name="pushButton_9">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>9</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="1">
-         <widget class="QPushButton" name="pushButton_2">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>2</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="3">
-         <widget class="QPushButton" name="pushButton_divider">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>/</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="0">
-         <widget class="QPushButton" name="pushButton_1">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>1</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="2">
-         <widget class="QPushButton" name="pushButton_equal">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>=</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="3">
-         <widget class="QPushButton" name="pushButton_minus">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>-</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="2">
-         <widget class="QPushButton" name="pushButton_6">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>6</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="3">
-         <widget class="QPushButton" name="pushButton_plus">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>+</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="QPushButton" name="pushButton_0">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>0</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QPushButton" name="pushButton_8">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>8</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="0">
-         <widget class="QPushButton" name="pushButton_dot">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>.</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QPushButton" name="pushButton_4">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>4</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="3">
-         <widget class="QPushButton" name="pushButton_mult">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>*</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="2">
-         <widget class="QPushButton" name="pushButton_3">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>3</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QPushButton" name="pushButton_5">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>Palatino Linotype</family>
-            <pointsize>16</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-            <underline>false</underline>
-            <kerning>false</kerning>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>5</string>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="1" colspan="2">
-         <widget class="QPushButton" name="pushButton_clear">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(100, 170, 200);</string>
-          </property>
-          <property name="text">
-           <string>AC</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QPushButton" name="pushButton_divider">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>/</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="pushButton_1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QPushButton" name="pushButton_equal">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QPushButton" name="pushButton_minus">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QPushButton" name="pushButton_plus">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QPushButton" name="pushButton_0">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QPushButton" name="pushButton_dot">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QPushButton" name="pushButton_mult">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>*</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Palatino Linotype</family>
+          <pointsize>16</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <kerning>false</kerning>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1" colspan="2">
+       <widget class="QPushButton" name="pushButton_clear">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(100, 170, 200);</string>
+        </property>
+        <property name="text">
+         <string>AC</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
@@ -533,7 +505,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>661</width>
+     <width>639</width>
      <height>36</height>
     </rect>
    </property>
@@ -543,198 +515,6 @@
  <resources/>
  <connections>
   <connection>
-   <sender>pushButton_7</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot7()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>49</x>
-     <y>194</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>25</x>
-     <y>392</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_8</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot8()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>166</x>
-     <y>222</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>103</x>
-     <y>401</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_9</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot9()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>247</x>
-     <y>222</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>216</x>
-     <y>400</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_minus</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slotMinus()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>328</x>
-     <y>222</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>305</x>
-     <y>396</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_4</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot4()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>85</x>
-     <y>264</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>33</x>
-     <y>465</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_5</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot5()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>166</x>
-     <y>264</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>127</x>
-     <y>457</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_6</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot6()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>247</x>
-     <y>264</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>187</x>
-     <y>464</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_plus</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slotPlus()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>328</x>
-     <y>264</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>317</x>
-     <y>457</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_1</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot1()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>85</x>
-     <y>306</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>53</x>
-     <y>522</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_2</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot2()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>166</x>
-     <y>306</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>112</x>
-     <y>522</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot3()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>247</x>
-     <y>306</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>206</x>
-     <y>525</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_mult</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slotMultiply()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>328</x>
-     <y>306</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>276</x>
-     <y>517</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_dot</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
@@ -742,26 +522,10 @@
    <hints>
     <hint type="sourcelabel">
      <x>85</x>
-     <y>348</y>
+     <y>302</y>
     </hint>
     <hint type="destinationlabel">
      <x>55</x>
-     <y>577</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_0</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slot0()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>166</x>
-     <y>348</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>109</x>
      <y>577</y>
     </hint>
    </hints>
@@ -774,27 +538,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>247</x>
-     <y>348</y>
+     <y>302</y>
     </hint>
     <hint type="destinationlabel">
      <x>206</x>
      <y>578</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>pushButton_divider</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>slotDivider()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>328</x>
-     <y>348</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>277</x>
-     <y>573</y>
     </hint>
    </hints>
   </connection>
@@ -805,33 +553,245 @@
    <slot>slotClear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>209</x>
-     <y>373</y>
+     <x>247</x>
+     <y>341</y>
     </hint>
     <hint type="destinationlabel">
      <x>329</x>
-     <y>612</y>
+     <y>603</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>49</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>79</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>48</x>
+     <y>469</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_1</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>53</x>
+     <y>520</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>155</x>
+     <y>417</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>471</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>119</x>
+     <y>516</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_0</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>302</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>159</x>
+     <y>516</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>110</x>
+     <y>626</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>161</x>
+     <y>659</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotNumbers()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>258</x>
+     <y>649</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minus</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotOperators()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>302</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>307</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plus</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotOperators()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>307</x>
+     <y>202</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>303</x>
+     <y>375</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_mult</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotOperators()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>315</x>
+     <y>248</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>336</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_divider</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>slotOperators()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>426</y>
     </hint>
    </hints>
   </connection>
  </connections>
  <slots>
-  <slot>slot1()</slot>
-  <slot>slot2()</slot>
-  <slot>slot3()</slot>
-  <slot>slot4()</slot>
-  <slot>slot5()</slot>
-  <slot>slot6()</slot>
-  <slot>slot7()</slot>
-  <slot>slot8()</slot>
-  <slot>slot9()</slot>
-  <slot>slot0()</slot>
-  <slot>slotMinus()</slot>
+  <slot>slotNumbers()</slot>
   <slot>slotEqually()</slot>
   <slot>slotDot()</slot>
-  <slot>slotMultiply()</slot>
-  <slot>slotDivider()</slot>
-  <slot>slotPlus()</slot>
   <slot>slotClear()</slot>
+  <slot>slotOperators()</slot>
  </slots>
 </ui>

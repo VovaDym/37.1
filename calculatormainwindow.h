@@ -3,13 +3,14 @@
 
 #include <QMainWindow>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QPushButton>
+#include <string>
 
 class CalculatorMainWindow : public  QMainWindow
 {
     Q_OBJECT
 
 public:
-    QLineEdit* enterShow = nullptr;
     QLineEdit* resultShow = nullptr;
     CalculatorMainWindow(QWidget* parent = nullptr): QMainWindow(parent){}
 
@@ -20,142 +21,54 @@ public:
     }
 
 public slots:
-    void slot0()
+    void slotNumbers()
     {
-        enterShow->setText(enterShow->text() + "0");
-        allNumbers = (resultShow->text() + "0").toDouble();
+        QPushButton* buttonNumbers = dynamic_cast<QPushButton*>(sender());
+        allNumbers = (resultShow->text() + buttonNumbers->text()).toDouble();
         numberToString(allNumbers);
     };
 
-    void slot1()
+    void slotOperators()
     {
-        enterShow->setText(enterShow->text() + "1");
-        allNumbers = (resultShow->text() + "1").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slot2()
-    {
-        enterShow->setText(enterShow->text() + "2");
-        allNumbers = (resultShow->text() + "2").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slot3()
-    {
-        enterShow->setText(enterShow->text() + "3");
-        allNumbers = (resultShow->text() + "3").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slot4()
-    {
-        enterShow->setText(enterShow->text() + "4");
-        allNumbers = (resultShow->text() + "4").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slot5()
-    {
-        enterShow->setText(enterShow->text() + "5");
-        allNumbers = (resultShow->text() + "5").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slot6()
-    {
-        enterShow->setText(enterShow->text() + "6");
-        allNumbers = (resultShow->text() + "6").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slot7()
-    {
-        enterShow->setText(enterShow->text() + "7");
-        allNumbers = (resultShow->text() + "7").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slot8(){
-        enterShow->setText(enterShow->text() + "8");
-        allNumbers = (resultShow->text() + "8").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slot9(){
-        enterShow->setText(enterShow->text() + "9");
-        allNumbers = (resultShow->text() + "9").toDouble();
-        numberToString(allNumbers);
-    };
-
-    void slotMinus()
-    {
-        enterShow->setText(enterShow->text() + "-");
+        QPushButton* buttonOperators = dynamic_cast<QPushButton*>(sender());
         numberFirst = allNumbers;
         resultShow->setText("");
-    };
-
-    void slotPlus()
-    {
-        enterShow->setText(enterShow->text() + "+");
-        numberFirst = allNumbers;
-        resultShow->setText("");
-    };
-
-    void slotMultiply()
-    {
-        enterShow->setText(enterShow->text() + "*");
-        numberFirst = allNumbers;
-        resultShow->setText("");
-    };
-
-    void slotDivider()
-    {
-        enterShow->setText(enterShow->text() + "/");
-        numberFirst = allNumbers;
-        resultShow->setText("");
+        opr = buttonOperators->text();
     };
 
     void slotEqually()
     {
-        enterShow->setText(enterShow->text() + "=");
-        if(enterShow->text().contains('+'))
+        if(opr == "+")
         {
             numberSecond = allNumbers;
             numberToString(numberFirst + numberSecond);
-            enterShow->setText("");
         }
-        else if(enterShow->text().contains('-'))
+        else if(opr == "-")
         {
             numberSecond = allNumbers;
             numberToString(numberFirst - numberSecond);
-            enterShow->setText("");
         }
-        else if(enterShow->text().contains('*'))
+        else if(opr == "*")
         {
             numberSecond = allNumbers;
             numberToString(numberFirst * numberSecond);
-            enterShow->setText("");
         }
-        else if(enterShow->text().contains('/'))
+        else if(opr == "/")
         {
             numberSecond = allNumbers;
             if(numberSecond == 0)
             {
-                enterShow->setText("");
                 resultShow->setText("ERROR!");
             }
             else
             {
                 numberToString(numberFirst / numberSecond);
-                enterShow->setText("");
             }
         }
     };
 
     void slotClear()
     {
-        enterShow->setText("");
         resultShow->setText("");
     };
 
@@ -163,19 +76,17 @@ public slots:
     {
         if(!(resultShow->text().contains('.')))
         {
-            enterShow->setText(enterShow->text() + ".");
             resultShow->setText(resultShow->text() + ".");
         }
         else
         {
-            enterShow->setText("");
             resultShow->setText("ERROR!");
         }
     };
 
 private:
     double allNumbers, numberFirst, numberSecond;
-    QString newLabel;
+    QString newLabel, opr;
 };
 
 #endif //INC_37_1222_CALCULATORMAINWINDOW_H
